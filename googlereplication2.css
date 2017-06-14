@@ -1,0 +1,202 @@
+#nav1 {
+isplay: inline;
+list-style-type: none;
+font-family: sans-serif;
+font-size: 13px;
+color: #696969;
+text-align: left;
+}
+
+nav {
+display: inline;
+position: absolute;
+top: 3px;
+right: 20px;
+background-color: transparent;
+word-spacing: 13px;
+}
+
+#navburger{
+width: 15px;
+margin-right: auto;
+}
+
+#navbell {
+width: 20px;
+border-radius: 50%;
+margin-right: auto;
+}
+
+#navphoto {
+width: 33px;
+border-radius: 50%;
+margin-right: 12px;
+}
+
+#logo {
+display: block;
+float: center;
+width: 26%;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#search {
+position: relative;
+float: center;
+width: 450px;
+height: 40px;
+border: 1px solid #e7e7e7;
+border-radius: 3px;
+margin-top: 0px;
+margin-bottom: 40px;
+margin-left: auto;
+margin-right: auto;
+vertical-align: middle;
+}
+
+#input {
+width: 450px;
+height: 40px;
+box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+border: 1px solid #e7e7e7;
+}
+
+.buttons {
+display: inline block;
+position: relative;
+font-family: sans-serif;
+float: center;
+text-align: center;
+cursor: pointer;
+}
+
+#buttonstyle {
+height: 40px;
+width: auto;
+border: none;
+color: #696969;
+font-family: sans-serif;
+font-size: 13px;
+font-weight: bold;
+padding: 15px;
+}
+
+a.buttons:hover {
+border: 1px solid #e7e7e7;
+}
+
+a:link {
+color: #696969;
+text-decoration: none;
+}
+
+a:visited {
+color: #696969;
+text-decoration: none;
+}
+
+a:hover {
+color: #696969;
+text-decoration: underline;
+}
+
+a:active {
+color: #696969;
+text-decoration: none;
+}
+
+#footer {
+display: inline;
+list-style-type: none;
+font-family: sans-serif;
+font-size: 13px;
+color: #696969;
+text-align: left;
+}
+
+#rightfooter {
+float:right;
+margin-right: 30px;
+}
+
+footer {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: #f5f5f5;
+border-top: #c0c0c0;
+word-spacing: 25px;
+}
+
+
+<!doctype html>
+<html>
+	<head>
+		<title>google homepage replication</title>
+		<link rel="stylesheet" type="text/css" href="googlereplication.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li id="nav1"><a href="https://mail.google.com/mail/u/0/?tab=wm#inbox">Gmail</li>
+				<li id="nav1"><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=kbAwWbnwLtHawQKztaGABw&ved=0EKouCBcoAQ">Images</li>
+				<img id="navburger" src="nav_icons_burger.svg" alt="burger">
+				<img id="navbell" src="nav_icons_bell.svg" alt="bell">
+				<img id="navphoto" src="profile-image.jpg" alt="profilephoto">
+			</ul>
+		</nav>
+
+		<img id="logo" src="google-logo.png" alt="google logo">
+		
+		<div id="search"
+		<form> 
+			<input type="text" id="input" name="searchme">
+		</form>
+		</div>
+		
+		<div class="buttons">
+			<button id="buttonstyle">Google Search</button>
+			<button id="buttonstyle">I'm Feeling Lucky</button>
+		</div>
+		
+		<footer>
+			<ul> 
+				<li id="footer"><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+				<li id="footer"><a href="https://www.google.com/intl/en/ads/?fg=1">Business</a></li>
+				<li id="footer"><a href="https://www.google.com/intl/en/about/">About</a></li>
+			<div id="rightfooter">
+				<li id="footer"><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+				<li id="footer"><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+				<li id="footer">Settings</li>
+			</div>
+			</ul>
+		</footer>
+	</body>
+</html>
+
+
+
+#navburger{
+display: inline;
+right: 20px;
+width: 17px;
+margin-right: 12px;
+padding-left: 6px;
+}
+
+#navbell{
+display: inline;
+right: 20px;
+width: 21px;
+margin-left: -1px;
+}
+
+#navphoto {
+width: 33px;
+border-radius: 50%;
+margin-left: 1px;
+}
